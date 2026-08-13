@@ -1,6 +1,6 @@
 [package]
 name = "anydoc-cli"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Standalone CLI that converts Office/PDF/EPUB documents to Markdown, powered by the anydoc crate"
 license = "MIT"
