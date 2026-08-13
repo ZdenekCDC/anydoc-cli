@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 description = "Standalone CLI that converts Office/PDF/EPUB documents to Markdown, powered by the anydoc crate"
 license = "MIT"
+repository = "https://github.com/ZdenekCDC/anydoc-cli"
 
 [dependencies]
 anydoc = "0.1.8"
