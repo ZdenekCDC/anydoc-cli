@@ -37,9 +37,16 @@ browser:
 ## Usage
 
 ```sh
-anydoc-cli report.docx                # prints Markdown to stdout
-anydoc-cli report.docx -o report.md   # writes Markdown to a file
+anydoc-cli report.docx                  # writes report.md next to report.docx
+anydoc-cli report.docx -o out.md        # writes Markdown to a specific file
+anydoc-cli --stdout report.docx         # prints Markdown to stdout instead
+anydoc-cli *.docx                       # batch mode: converts every match to its own .md
+anydoc-cli a.docx b.pdf c.epub          # or list several files explicitly
 ```
+
+`-o`/`--output` only works with a single input file. With multiple inputs
+(or a glob), each document is converted to a sibling `.md` file unless
+`--stdout` is passed.
 
 ## Build from source
 
