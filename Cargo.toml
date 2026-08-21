@@ -7,5 +7,5 @@ license = "MIT"
 repository = "https://github.com/ZdenekCDC/anydoc-cli"
 
 [dependencies]
-anydoc = "0.2.1"
+anydoc = "0.2.3"
 clap = { version = "4", features = ["derive"] }
