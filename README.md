@@ -16,7 +16,9 @@ attribution. This project is not affiliated with Firecrawl.
 `doc`, `docx`, `docm`, `odt`, `pdf`, `ppt`, `pptx`, `rtf`, `epub`, `xls`,
 `xlsx`, `xlsm`, `xlsb`, `ods`, `odp`, `csv`.
 
-Scanned/image-only PDFs (which need OCR) are not supported.
+Scanned/image-only PDFs (which need OCR) are not supported. A PDF where even
+some pages are scanned fails with an error naming those pages (for example
+`pages 2, 5-7 of 20 need OCR`) instead of producing incomplete Markdown.
 
 ## Install
 
